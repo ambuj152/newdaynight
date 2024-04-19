@@ -32,6 +32,7 @@ include("whatsapp.php");
                           <a href="">
   							<p class="contact-mail mt-2"><span> <b>Call Us - +91-9936052309 </b></span></p>
   						</a>
+                       
   					</div>
   					<div class="column">
                       <h4>Quick links</h4>
@@ -61,6 +62,45 @@ include("whatsapp.php");
   						<a href="tel:+91-9936052309">
   							<p class="contact-phone mt-2">+91-9936052309</p>
   						</a>
+                          <br>
+                          <a class="googl-button" href="#" target="_blank"><strong>Write a review</strong></a>
+
+<style>
+
+
+.googl-button {
+    color: #00a0dc;
+  display: block;
+  margin: 10px auto;
+  width: 210px;
+  background-color: white !important;
+  padding: 10px 10px 10px 30px;
+  border:none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  font-size: 11px;
+  line-height: 15px;
+  background: url(https://cdn2.hubspot.net/hubfs/1961464/Support%20images/new-google-favicon-512.png) no-repeat left 10px center / 20px 20px;
+  height:35px;
+ 
+}
+
+  .googl-button:hover {
+     color: navy; 
+    /* background:black !important; */
+    /* background-image: url(https://cdn2.hubspot.net/hubfs/1961464/Support%20images/new-google-favicon-512-white.png); */
+}
+
+  .googl-button strong {
+    font-size: 15px;
+    display: block;
+  }
+
+
+</style>
   					</div>
   				</div>
   				<div class="d-grid grid-col-3 grids-content1 bottom-border">
