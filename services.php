@@ -493,6 +493,23 @@ include("header.php");
 			</div>
 		</div>
 	</div>
+	<center><div><button id="downloadBtn" class="btn btn-danger">Download Food Menu</button></div>
+	<script>
+		document.getElementById('downloadBtn').addEventListener('click', function() {
+    // Replace 'path_to_your_pdf.pdf' with the actual path to your PDF file
+    var pdfPath = 'assets/images/menu/food menu.pdf';
+    downloadPDF(pdfPath);
+});
+
+function downloadPDF(pdfPath) {
+    var link = document.createElement('a');
+    link.href = pdfPath;
+    link.download = 'food menu.pdf'; // You can customize the downloaded file name here
+    link.click();
+}
+
+	</script>
+	</center>
 	<!-- //menu -->
 <div class="display-ad" style="margin: 8px auto; display: block; text-align:center;">
 	<!---728x90--->
