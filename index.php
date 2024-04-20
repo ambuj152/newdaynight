@@ -511,7 +511,6 @@ include("header.php");
     </div><!--//testimonials-->
   <!-- footers 20 -->
   <hr>
-
   <?php 
   include("footer.php");
   ?>
